@@ -14,7 +14,6 @@
 		130ECE1B2286EA84009DA305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130ECE192286EA84009DA305 /* Main.storyboard */; };
 		130ECE1D2286EA86009DA305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130ECE1C2286EA86009DA305 /* Assets.xcassets */; };
 		130ECE202286EA86009DA305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130ECE1E2286EA86009DA305 /* LaunchScreen.storyboard */; };
-		130ECE282286EA9E009DA305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130ECE272286EA9E009DA305 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		130ECE1C2286EA86009DA305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		130ECE1F2286EA86009DA305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130ECE212286EA86009DA305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		130ECE272286EA9E009DA305 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +58,24 @@
 		130ECE102286EA84009DA305 /* MyInsurer */ = {
 			isa = PBXGroup;
 			children = (
-				130ECE112286EA84009DA305 /* AppDelegate.swift */,
-				130ECE132286EA84009DA305 /* RootViewController.swift */,
-				130ECE152286EA84009DA305 /* DataViewController.swift */,
-				130ECE172286EA84009DA305 /* ModelController.swift */,
+				130ECE2922870B51009DA305 /* Controller */,
 				130ECE192286EA84009DA305 /* Main.storyboard */,
-				130ECE272286EA9E009DA305 /* Main.storyboard */,
 				130ECE1C2286EA86009DA305 /* Assets.xcassets */,
 				130ECE1E2286EA86009DA305 /* LaunchScreen.storyboard */,
 				130ECE212286EA86009DA305 /* Info.plist */,
 			);
 			path = MyInsurer;
+			sourceTree = "<group>";
+		};
+		130ECE2922870B51009DA305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				130ECE112286EA84009DA305 /* AppDelegate.swift */,
+				130ECE132286EA84009DA305 /* RootViewController.swift */,
+				130ECE152286EA84009DA305 /* DataViewController.swift */,
+				130ECE172286EA84009DA305 /* ModelController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +139,6 @@
 				130ECE202286EA86009DA305 /* LaunchScreen.storyboard in Resources */,
 				130ECE1D2286EA86009DA305 /* Assets.xcassets in Resources */,
 				130ECE1B2286EA84009DA305 /* Main.storyboard in Resources */,
-				130ECE282286EA9E009DA305 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
