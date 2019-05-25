@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Benefit" representedClassName="Benefit" syncable="YES" codeGenerationType="class">
+        <attribute name="dataFim" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataInicio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="provedor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="dependente" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dependente" syncable="YES"/>
+    </entity>
+    <entity name="Dependente" representedClassName="Dependente" syncable="YES" codeGenerationType="class">
+        <attribute name="nascimento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="benefit" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Benefit" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dependente" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Benefit" positionX="-54" positionY="18" width="128" height="135"/>
+    </elements>
+</model>
