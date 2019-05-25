@@ -14,10 +14,7 @@
 		130ECE3022870D1C009DA305 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130ECE2F22870D1C009DA305 /* QuizViewModel.swift */; };
 		133FA5C422995C9A00101456 /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5C322995C9A00101456 /* Benefit.swift */; };
 		133FA5C622995D4800101456 /* Dependente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5C522995D4800101456 /* Dependente.swift */; };
-		133FA5C922996F1800101456 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5C722996F1800101456 /* Model.xcdatamodeld */; };
-		133FA5CD2299737B00101456 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5CA2299737A00101456 /* ModelController.swift */; };
-		133FA5CE2299737B00101456 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5CB2299737A00101456 /* RootViewController.swift */; };
-		133FA5CF2299737B00101456 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5CC2299737B00101456 /* DataViewController.swift */; };
+		133FA5D522997A7000101456 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FA5D422997A7000101456 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +27,7 @@
 		130ECE2F22870D1C009DA305 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 		133FA5C322995C9A00101456 /* Benefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
 		133FA5C522995D4800101456 /* Dependente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependente.swift; sourceTree = "<group>"; };
-		133FA5C822996F1800101456 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		133FA5CA2299737A00101456 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		133FA5CB2299737A00101456 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		133FA5CC2299737B00101456 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		133FA5D422997A7000101456 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +65,6 @@
 				130ECE2D22870CB0009DA305 /* View */,
 				130ECE2922870B51009DA305 /* Controller */,
 				130ECE212286EA86009DA305 /* Info.plist */,
-				133FA5C722996F1800101456 /* Model.xcdatamodeld */,
 			);
 			path = MyInsurer;
 			sourceTree = "<group>";
@@ -79,9 +72,7 @@
 		130ECE2922870B51009DA305 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				133FA5CC2299737B00101456 /* DataViewController.swift */,
-				133FA5CA2299737A00101456 /* ModelController.swift */,
-				133FA5CB2299737A00101456 /* RootViewController.swift */,
+				133FA5D422997A7000101456 /* LoginViewController.swift */,
 				130ECE112286EA84009DA305 /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -185,12 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133FA5D522997A7000101456 /* LoginViewController.swift in Sources */,
 				130ECE3022870D1C009DA305 /* QuizViewModel.swift in Sources */,
 				133FA5C422995C9A00101456 /* Benefit.swift in Sources */,
-				133FA5C922996F1800101456 /* Model.xcdatamodeld in Sources */,
-				133FA5CE2299737B00101456 /* RootViewController.swift in Sources */,
-				133FA5CF2299737B00101456 /* DataViewController.swift in Sources */,
-				133FA5CD2299737B00101456 /* ModelController.swift in Sources */,
 				133FA5C622995D4800101456 /* Dependente.swift in Sources */,
 				130ECE122286EA84009DA305 /* AppDelegate.swift in Sources */,
 			);
@@ -390,19 +378,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		133FA5C722996F1800101456 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				133FA5C822996F1800101456 /* Model.xcdatamodel */,
-			);
-			currentVersion = 133FA5C822996F1800101456 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 130ECE062286EA84009DA305 /* Project object */;
 }

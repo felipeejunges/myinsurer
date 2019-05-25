@@ -1,5 +1,5 @@
 //
-//  Benefit.swift
+//  LoginViewController.swift
 //  MyInsurer
 //
 //  Created by PUCPR on 25/05/19.
@@ -8,9 +8,6 @@
 
 import Foundation
 
-class Benefit {
-    var nome = ""
-    var provedor = ""
-    var dataInicio = ""
-    var dataFim = ""
+class LoginViewController {
+    
 }
